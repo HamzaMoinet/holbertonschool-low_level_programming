@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *print_line - print a line  
- *@n : n is the number of times the character 
+ *print_line - print a line
+ *@n : n is the number of times the character
 */
 
 void print_line(int n)
