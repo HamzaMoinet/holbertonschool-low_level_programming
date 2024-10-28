@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-  *_ispper - check
-  *@c : variable 'c' in uppercase
-  *Return: 1 or 0 (Success)
- */
+ *_ispper - check
+ *@c : variable 'c' in uppercase
+ *Return: 1 or 0 (1 is uppercase 0 is otherwise)
+*/
 
 
 int _isupper(int c)
