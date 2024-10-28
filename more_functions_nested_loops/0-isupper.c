@@ -3,7 +3,7 @@
 
 /**
   *_ispper - check
-  *@c / variable 'c' in uppercase
+  *@c : variable 'c' in uppercase
   *Return: 1 or 0 (Success)
  */
 
