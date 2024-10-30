@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *_strlen - strlen
+ *@s: s
+ *Return: a
 */
 int _strlen(char *s)
 {
