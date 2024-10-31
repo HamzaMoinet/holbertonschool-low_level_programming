@@ -1,7 +1,7 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- *_puts - putch une phrase
+ *puts2 - putch une phrase
  *@str: phrase
 */
 void puts2(char *str)
