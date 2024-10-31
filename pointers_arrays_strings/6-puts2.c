@@ -1,16 +1,16 @@
 #include "main.h"
+#include "2-strlen.c"
 /**
  *_puts - putch une phrase
  *@str: phrase
 */
 void puts2(char *str)
 {
-	int a = 0;
+	int a;
 
-	while (*str != '\0')
+	for (a = 0; a < _strlen(str); a += 2)
 	{
 		_putchar(str[a]);
-		str += 2;
 	}
 	_putchar('\n');
 }
