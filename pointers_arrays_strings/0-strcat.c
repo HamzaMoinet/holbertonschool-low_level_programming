@@ -2,9 +2,10 @@
 #include "2-strlen.c"
 
 /**
- *
- *
- *
+ *_strcat - strcat
+ *@dest: dest
+ *@src: src
+ *Return: dest
 */
 
 char *_strcat(char *dest, char *src)
