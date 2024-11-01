@@ -1,11 +1,11 @@
 #include "main.h"
 #include "2-strlen.c"
 /**
- *
- *
- *
- *
- *
+ *_strncat - strncat
+ *@dest: dest
+ *@src: src
+ *@n: n
+ *Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
