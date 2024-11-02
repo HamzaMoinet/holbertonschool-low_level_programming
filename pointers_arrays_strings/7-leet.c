@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *leet - leet
+ *@i: i
+ *Return: r = i
 */
 
 char *leet(char *i)
