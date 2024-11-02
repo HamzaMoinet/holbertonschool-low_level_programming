@@ -15,7 +15,7 @@ char *leet(char *i)
 
 	while (*i)
 	{
-		for (c = 0; c < 4; c++)
+		for (c = 0; c < 5; c++)
 		{
 			if (*i == a[c] || *i == a[c] - 32)
 				*i = b[c] + '0';
