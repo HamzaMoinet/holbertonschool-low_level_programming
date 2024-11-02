@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
+ *reverse_array - reverse number
+ *@a: a
+ *@n: n
 */
 
 void reverse_array(int *a, int n)
