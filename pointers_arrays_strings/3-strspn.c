@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- *
- *
- *
- *
- *
-*/
+ * _strspn - length of prefix substring
+ * @s: strins sources
+ * @accept: substring
+ * Return: nomber of bytes
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
