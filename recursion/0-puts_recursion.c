@@ -2,7 +2,7 @@
 
 /**
  *_puts_recursion - puts recursive
- *@s- phrase
+ *@s: phrase
  */
 void _puts_recursion(char *s)
 {
