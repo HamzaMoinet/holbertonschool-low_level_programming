@@ -4,7 +4,7 @@
  *_pow_recursion - mult recursion
  *@x: x
  *@y: y
- Return: mult recursion x a y
+ *Return: mult recursion x a y
  */
 int _pow_recursion(int x, int y)
 {
