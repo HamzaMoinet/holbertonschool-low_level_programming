@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
+ *_puts_recursion - puts recursive
+ *@s- phrase
  */
 void _puts_recursion(char *s)
 {
