@@ -3,8 +3,7 @@
  *_sqrt - calcule
  *@a: nombre a
  *@b: resultat
- *Return: -1 if b > of result a * a
-		a if b = a
+ *Return: -1 if b > of result a * a and a if b = a
  */
 int _sqrt(int a, int b)
 {
