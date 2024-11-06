@@ -16,7 +16,7 @@ int _sqrt(int a, int b)
 	{
 		return (a);
 	}
-	return ( _sqrt(a + 1, b));
+	return (_sqrt(a + 1, b));
 }
 /**
  * _sqrt_recursion - result of calcul
