@@ -21,6 +21,7 @@ int _sqrt(int a, int b)
 /**
  * _sqrt_recursion - result of calcul
  * @n: nomber
+ * Return: _sqtr
  */
 int _sqrt_recursion(int n)
 {
