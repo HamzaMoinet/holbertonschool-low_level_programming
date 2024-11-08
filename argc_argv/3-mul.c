@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
- * main - print all arguments
+ * main - multiplies two numbers
  * @argc: all arguments
  * @argv: array of arguments
- * Return: 0 success
+ * Return: 0 succes
  */
 int main(int argc, char *argv[])
 {
 	int num1, num2;
 
-	if 	(argc != 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
