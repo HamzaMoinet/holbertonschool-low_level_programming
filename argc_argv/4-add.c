@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 #include <ctype.h>
 /**
  * main - multiplies two numbers
@@ -8,11 +7,13 @@
  * @argv: array of arguments
  * Return: 0 succes
  */
+
 int main(int argc, char *argv[])
 {
 	int sum = 0;
 	int i;
 	int j;
+
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -31,6 +32,7 @@ int main(int argc, char *argv[])
 		}
 		sum += atoi(argv[i]);
 	}
+	
 	printf("%d\n", sum);
 
 	return (0);
