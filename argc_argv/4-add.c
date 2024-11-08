@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-/**
- * main - multiplies two numbers
- * @argc: all arguments
- * @argv: array of arguments
- * Return: 0 succes
- */
 
+/**
+ * main - additionne des nombres positifs passés en argument
+ * @argc: Le nombre d'arguments
+ * @argv: Le tableau des arguments
+ * Return: 0 si succès, 1 si erreur
+ */
 int main(int argc, char *argv[])
 {
 	int sum = 0;
@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for  (i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		for (j = 0;argv[i][j] != '\0'; j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			if (!isdigit(argv[i][j]))
 			{
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 		}
 		sum += atoi(argv[i]);
 	}
-	
+
 	printf("%d\n", sum);
 
 	return (0);
