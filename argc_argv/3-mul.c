@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - print all arguments
  * @argc: all arguments
  * @argv: array of arguments
  * Return: 0 success
  */
-
 int main(int argc, char *argv[])
 {
 	int num1, num2;
