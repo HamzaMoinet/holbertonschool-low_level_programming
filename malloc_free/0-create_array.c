@@ -28,5 +28,6 @@
 	{
 		array[a] = c;
 	}
+	
 	return (array);
  }
