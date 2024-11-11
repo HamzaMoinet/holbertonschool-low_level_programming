@@ -15,19 +15,12 @@
 
 	array = malloc(size);
 	if (size == 0)
-	{
-		return (NULL);
-	}
-
+			return (NULL);
 	if (array == 0)
-	{
-		return (NULL);
-	}
-
+			return (NULL);
 	for (a = 0; a <= size; a++)
 	{
 		array[a] = c;
 	}
-	
 	return (array);
  }
