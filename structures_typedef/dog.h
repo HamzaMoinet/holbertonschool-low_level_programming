@@ -1,3 +1,4 @@
+#ifndef _struct
 #define _struct
 /**
  * struct dog - structure of dog
