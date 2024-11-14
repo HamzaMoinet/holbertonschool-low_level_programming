@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * @brief
- *
- *
- *
+ *print_dog - print info in dog
+ *@d: segment of dog
+ *Return: return
  */
 void print_dog(struct dog *d)
 {
