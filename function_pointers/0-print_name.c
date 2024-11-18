@@ -3,8 +3,8 @@
 /**
  *print_name - print a nam
  *@name : Bob and BOB DYLAN
- *@f:
- *Return:
+ *@f: print nam
+ *Return: return
  */
 void print_name(char *name, void (*f)(char *))
 {
