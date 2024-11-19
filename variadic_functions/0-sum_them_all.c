@@ -2,8 +2,9 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - sum of all parameters
- *
+ *sum_them_all - sum of all parameters
+ *@n: element
+ *Return: void
  */
 
 int sum_them_all(const unsigned int n, ...)
