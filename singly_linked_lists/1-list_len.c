@@ -3,8 +3,9 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * @brief
- *
+ *list_len - list len
+ *@h: pointer of structure
+ *Return: return nodes
  */
 size_t list_len(const list_t *h)
 {
