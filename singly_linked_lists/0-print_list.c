@@ -3,8 +3,9 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * @brief
- *
+ *print_list - print a list
+ *@h: poiteur to structure
+ *Return: return nodes
  */
 
 size_t print_list(const list_t *h)
