@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- * @brief
- *
+ *dlistint_len - function that print all elements of a list
+ *@h: the head node
+ *Return: the number of the list
  */
 size_t dlistint_len(const dlistint_t *h)
 {
