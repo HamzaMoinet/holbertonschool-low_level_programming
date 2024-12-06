@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * @brief
- *
+ *read_textfile - read text file
+ *@filename: filename
+ *@letters: letters
+ *Return: 0
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
