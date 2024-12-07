@@ -1,13 +1,12 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
+
 /**
  * add_dnodeint - adds a new node at the beginning of a dlistint_t list
  * @head: double pointer
  * @n: value to store in the new mode
  * Return: Adress of the element or NULL
  */
+
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node;
